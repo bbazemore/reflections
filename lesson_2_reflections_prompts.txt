@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+	The git infrastructure with hidden files is set up. No files are committed, the log is empty.
+	You need to init git so it will be prepared to commit files / changes.
+	
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+	The working directory contains all files. The staging directory contains the files that will
+	be added to the repository.  This allows you to screen out temporary working files from the commit.
