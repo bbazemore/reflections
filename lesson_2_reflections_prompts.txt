@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 	The git infrastructure with hidden files is set up. No files are committed, the log is empty.
 	You need to init git so it will be prepared to commit files / changes.
 	
@@ -6,3 +6,10 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	The working directory contains all files. The staging directory contains the files that will
 	be added to the repository.  This allows you to screen out temporary working files from the commit.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	Just add the files involved in a logical change to the staging area before the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	You can save a branch every time you have a product release. You can then get back to an earlier version easily.
+
