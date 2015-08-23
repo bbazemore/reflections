@@ -26,7 +26,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You could collaborate using a different change management tool such as svn, or by
+	emailing each other changes.  GitHub or other formal change management tool are
+	easier in the long run, especially if there are branches.  Email is easier if there
+	are only one or two changes total.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
