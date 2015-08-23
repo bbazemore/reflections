@@ -34,4 +34,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would like to make changes in a separate branch when working on changes that might
+	be controversial, or aren't ready for prime time / master yet.  The benefit of working
+	in a separate branch is that I can avoid breaking other people, and others can review
+	the changes when they are ready to go into master.  
+	The benefits of checking directly into master is there is less overhead and less chance
+	of human error due to the extra mechanizations. 
